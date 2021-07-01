@@ -10,6 +10,6 @@ public class IndexController {
 
 	@GetMapping
 	public String sayHello() {
-		return "Todo Application. You can create a new task by making a POST request to /api/tasks endpoint.";
+		return "Todo Application.  You can create a new task by making a POST request to /api/tasks endpoint.";
 	}
 }
